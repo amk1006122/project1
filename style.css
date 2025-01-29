@@ -306,18 +306,8 @@ nav ul li a:hover {
 }
 
 /* Rectangle Images Positioned to the Right */
-.rectangle_images {
-<<<<<<< HEAD
-    /* position: static;
-=======
-    position: absolute;
->>>>>>> 6508181529783f209f20130dd272f11f5a61d9e1
-    top: 10%;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-} */
+.rectangle_image{ 
+
  position:absolute;
  top:10%;
  right: 0;
@@ -328,17 +318,12 @@ nav ul li a:hover {
 
 
 .rectangle_images img {
-    /* width: 200px;
+    width: 200px;
     height: flex;
     border-radius: 10px;
     object-fit: cover;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
-    width:100%;
-    height: 200px;
-    border-radius: (0 100% 100% 0);
-    object-fit: cover;
-    transition: transforms 0.3s ease,box-shawdow 0.3s ease;
-    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+   
 }
 
 /* Fullscreen modal */
