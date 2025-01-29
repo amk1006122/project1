@@ -32,7 +32,7 @@ nav {
 
 .nav_link {
     list-style: none;
-    display: flex;
+    display: auto;
     align-items: center;
     justify-content: space-between;
     margin: 0;
@@ -145,7 +145,7 @@ body {
 
 /* Navigation Styling */
 nav {
-    display: flex;
+    display: auto;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -157,7 +157,7 @@ nav {
 }
 
 nav ul {
-    display: flex;
+    display: auto;
     list-style: none;
     align-items: center;
 }
@@ -178,7 +178,7 @@ nav ul li a:hover {
 }
 
 .nav_logo {
-    display: flex;
+    display: auto;
     align-items: center;
 }
 
@@ -215,7 +215,7 @@ nav ul li a:hover {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    display: flex;
+    display: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -250,7 +250,7 @@ nav ul li a:hover {
     position: absolute;
     top: 5%;
     left: 0;
-    display: flex;
+    display: auto;
     flex-direction: column;
     justify-content: center;
 }
@@ -286,7 +286,7 @@ nav ul li a:hover {
 
 /* Show modal when targeted */
 .fullscreen:target {
-    display: flex; /* Make modal visible */
+    display: auto; /* Make modal visible */
 }
 
 /* Fullscreen image */
@@ -318,7 +318,7 @@ nav ul li a:hover {
     position: absolute;
     top: 10%;
     right: 0;
-    display: flex;
+    display: auto;
     flex-direction: column;
     gap: 15px;
 }
@@ -347,7 +347,7 @@ nav ul li a:hover {
 
 /* Show modal when targeted */
 .fullscreen:target {
-    display: flex; /* Make modal visible */
+    display: auto; /* Make modal visible */
 }
 
 /* Fullscreen image */
@@ -378,7 +378,7 @@ footer {
     background: #222;
     color: white;
     text-align: center;
-    display: flex;
+    display: auto;
     cursor: pointer;
 }
 
@@ -395,7 +395,7 @@ footer .footer_menus ul {
 footer .footer_menus ul a {
     list-style: none;
     padding: 0;
-    display: flex;
+    display: auto;
     justify-content: center;
     gap: 20px;
 }
@@ -416,7 +416,7 @@ footer .footer_menus ul li {
 }
 
 .footer_menus {
-    display: flex;
+    display: auto;
     gap: 30px;
 }
 
@@ -435,7 +435,7 @@ footer .footer_menus ul li {
 }
 
 .footer-social ul {
-    display: flex;
+    display: auto;
     gap: 20px;
     margin: 0;
     padding: 0;
