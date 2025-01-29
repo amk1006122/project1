@@ -1,14 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 
-:root {
-    --primary-color: #f5f4f2;
-    --text-dark: #ffffff;
-    --text-light: #ffffff;
-    --white: #111010;
-    --header-font: 'Poppins', sans-serif;
-    --hover-color: #333333;
-}
 
 
 * {
@@ -64,7 +55,7 @@ nav {
 .nav_logo img {
     max-width: 80px; 
     display: block;
-    margin: auto;
+    margin: flex;
 }
 
 .nav_logo span {
@@ -131,6 +122,7 @@ nav {
     font-style: italic;
 }  */
 
+
 * {
     margin: 0;
     padding: 0;
@@ -178,7 +170,7 @@ nav ul li a:hover {
 }
 
 .nav_logo {
-    display: flex;
+    display: auto;
     align-items: center;
 }
 
@@ -286,7 +278,7 @@ nav ul li a:hover {
 
 /* Show modal when targeted */
 .fullscreen:target {
-    display: flex; /* Make modal visible */
+    display:flex; /* Make modal visible */
 }
 
 /* Fullscreen image */
@@ -325,7 +317,7 @@ nav ul li a:hover {
 
 .rectangle_images img {
     width: 200px;
-    height: auto;
+    height: flex;
     border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -455,7 +447,7 @@ footer .footer_menus ul li {
 .footer_logo img {
     display: block;
     width: 400px;
-    height: auto;
+    height: flex;
 }
 footer .dropdown-menu{
     cursor: pointer;
@@ -465,6 +457,8 @@ footer .dropdown-menu{
     margin-top: 20px;
 }
 
+
+/* Resposive Design */
 
 
 
@@ -482,7 +476,7 @@ footer .dropdown-menu{
 body {
     background-color: #f4f4f4;
     color: #1b1a1a;
-    line-height: 1.6;
+    line-height: 1.5;
     font-size: 16px;
 }
 
