@@ -64,7 +64,7 @@ nav {
 .nav_logo img {
     max-width: 80px; 
     display: block;
-    margin: auto;
+    margin: flex;
 }
 
 .nav_logo span {
