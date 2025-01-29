@@ -1,14 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 
-:root {
-    --primary-color: #f5f4f2;
-    --text-dark: #ffffff;
-    --text-light: #ffffff;
-    --white: #111010;
-    --header-font: 'Poppins', sans-serif;
-    --hover-color: #333333;
-}
 
 
 * {
@@ -131,6 +122,7 @@ nav {
     font-style: italic;
 }  */
 
+
 * {
     margin: 0;
     padding: 0;
@@ -250,7 +242,7 @@ nav ul li a:hover {
     position: absolute;
     top: 5%;
     left: 0;
-    display: auto;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -484,7 +476,7 @@ footer .dropdown-menu{
 body {
     background-color: #f4f4f4;
     color: #1b1a1a;
-    line-height: 1.6;
+    line-height: 1.5;
     font-size: 16px;
 }
 
