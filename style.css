@@ -307,7 +307,11 @@ nav ul li a:hover {
 
 /* Rectangle Images Positioned to the Right */
 .rectangle_images {
+<<<<<<< HEAD
     /* position: static;
+=======
+    position: absolute;
+>>>>>>> 6508181529783f209f20130dd272f11f5a61d9e1
     top: 10%;
     right: 0;
     display: flex;
